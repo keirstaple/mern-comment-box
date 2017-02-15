@@ -1,4 +1,4 @@
-This project follows the tutorial from (https://github.com/bryantheastronaut/mernCommentBox), which teaches how to create a MERN stack (Mongo, Express, React, Node) comment box application. 
+This project follows the tutorial from (https://github.com/bryantheastronaut/mernCommentBox), which teaches how to create a MERN stack (Mongo, Express, React, Node) comment box application. I used [Postman](https://www.getpostman.com/) to test my first Node API!
 
 * `git clone https://github.com/keirstaple/mern-comment-box.git`
 * `cd mern-comment-box`

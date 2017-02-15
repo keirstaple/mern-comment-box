@@ -2,13 +2,11 @@
 'use strict'
 
 //first we import our dependencies...
+require('dotenv').config();
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
-require('dotenv').config();
-
-//load environment variables
-// console.log(dotenv);
+var Comment = require('./model/comments');
 
 //and create our instances
 var app = express();

@@ -18,7 +18,13 @@ class CommentBox extends Component {
       })
   }
   handleCommentSubmit(comment) {
-    //add POST request
+    axios.post(this.props.url, comment)
+      .then(res => {
+        this.setState({ data: res });
+      }).
+      .catch(err => {
+        console.error(err);
+      });
   }
   componentDidMount() {
     this.loadCommentsFromServer();
